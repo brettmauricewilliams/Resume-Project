@@ -1,4 +1,5 @@
-💼 SDFPP Resume Project
+###💼 SDFPP Resume Project
+
 Welcome to your first major portfolio project in the Software Development Program is a resume project (SDFPP). In this challenge, using a Figma design file as reference, you’ll create your very own online resume — a personal website that shows off your skills, experience, and code style using HTML and CSS.
 
 This is not just practice — this is something you can proudly include in your portfolio and share with future employers!
