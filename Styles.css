@@ -59,4 +59,311 @@ body {
   font-size: 14px;
   line-height: 1.6;
 }
+/* Container for Proficiency and Skills Sections */
+.side-by-side {
+  display: flex;
+  gap: 30px; /* Adjust the gap between the two sections */
+  justify-content: space-between; /* Even spacing between the sections */
+  margin-bottom: 25px;
+}
+
+/* Proficiency Section */
+.card.proficiency {
+  box-shadow: 0 6px 24px rgba(0,0,0,0.06);
+  background-color: white;
+  width: 563.9px;
+  height: 428.37px;
+  top: 411.43px;
+  left: 62.92px;
+  border-radius: 29.04px;
+  padding-top: 41px;
+  padding-right: 28px;
+  padding-bottom: 41px;
+  padding-left: 28px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Skills Section */
+.card.skills {
+  width: 706px;
+  height: 429px;
+  top: 411px;
+  left: 675px;
+  border-radius: 29.04px;
+  gap: 39px;
+  padding-top: 41px;
+  padding-left: 28px;
+  padding-bottom: 41px;
+  padding-right: 30px;
+  background-color: white;
+}
+
+/* Styling for proficiency bars */
+.skills-bar p,
+.skill-tags span {
+  margin-bottom: 8px;
+}
+
+.skills-bar .bar {
+  width: 100%;
+  height: 10px;
+  background: #e0e0e0;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.fill {
+  height: 100%;
+  background-color: #4A8B70;
+  border-radius: 5px;
+}
+
+.fill.js { width: 0%; }
+.fill.react { width: 0%; }
+.fill.node { width: 0%; }
+.fill.htmlcss { width: 65%; }
+
+/* Styling for skill tags */
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill-tags span {
+  background: #d2f4e4;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 13px;
+}
+
+/* Projects Heading Style */
+.card.projects h2 {
+  width: 136px;
+  height: 51px;
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  font-size: 33.88px;
+  line-height: 150%;
+  letter-spacing: 0;
+  text-align: center;
+  margin: 0 auto 40px auto;
+}
+
+/* Projects Container */
+.card.projects {
+  width: 1251;
+  height: 581;
+  border-radius: 29.04px;
+  background: #fff;
+  padding: 30px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.06);
+  margin-bottom: 30px;
+}
+/* Projects Grid Layout */
+.project-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+  max-width: 1251px;
+  width: 100%;
+  height: 581px;
+  border-radius: 29.04px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+/* Individual Project Card */
+.project {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 22px 19px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 100%;
+}
+
+/* Heart Icon */
+.project::before {
+  content: "❤️";
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 16px;
+}
+
+/* Project Title */
+.project h3 {
+  margin: 0;
+  font-size: 16px;
+  color: #1a1a1a;
+}
+
+/* Project Paragraphs */
+.project p {
+  margin: 4px 0;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* Bold Labels */
+.project strong {
+  display: block;
+  font-weight: 600;
+  color: #333;
+}
+/* Container for Education and Tools */
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  width: 100%;
+  max-width: 1325px;
+  box-sizing: border-box;
+  gap: 30px;
+  align-items: stretch;
+  margin-bottom: 30px;
+}
+
+/* Sizing for children */
+.card.education, 
+.card.tools {
+  box-sizing: border-box;
+}
+
+/* Education Section */
+.card.education {
+  width: 994.69px;
+  height: 847.06px;
+  top: 1691.09px;
+  left: 63px;
+  border-radius: 29.04px;
+  padding: 29px;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.06);
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* space between each education item */
+}
+
+/* Shared base styles for education blocks */
+.education1,
+.education2,
+.education3 {
+  width: 936.61px;
+  border-radius: 29.04px;
+  padding: 27px 21px;
+  box-sizing: border-box;
+}
+
+/* Specific styles */
+.education1 {
+  height: 242.02px;
+  background-color: #4A8B70;
+}
+
+.education2 {
+  height: 242.02px;
+  background-color: #E7F0EC;
+}
+
+.education3 {
+  height: 193.61px;
+  background-color: #E7F0EC;
+}
+
+/* Tools Section */
+.card.tools {
+  width: 300.1px;
+  height: 847.06px;
+  top: 1691.29px;
+  left: 1078.69px;
+  border-radius: 29.04px;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.06);
+}
+
+.card.tools ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/*Experience Section*/
+.card.experience {
+  width: 1316;
+  height: 640;
+  top: 2586.15px;
+  left: 63px;
+  border-radius: 29.04px;
+  padding-top: 31px;
+  padding-right: 27px;
+  padding-bottom: 32px;
+  padding-left: 27px;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.06);
+  gap: 30px;
+  background-color: white;
+  margin-bottom: 20px;
+}
+.experience{
+  width: 1260;
+  height: 145;
+  border-radius: 29.04px;
+  padding-top: 19px;
+  padding-right: 25px;
+  padding-bottom: 19px;
+  padding-left: 25px;
+  gap: 10px;
+}
+
+.experience1{
+  background-color: #4A8B70;
+  border-radius: 29.04px;
+}
+
+.most-recent-tag {
+  background-color: #D76239; 
+  color: white;
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: auto;
+  height: auto;
+  border-radius: 142.79px;
+  padding-top: 4.84px;
+  padding-bottom: 4.84px;
+}
+
+
+.experience2,
+.experience3{
+   background-color: #E7F0EC;
+  border-radius: 29.04px;
+}
+
+/*Footer Section*/
+.footer {
+ width: 1322;
+  height: 158;
+  top: 3274.15px;
+  left: 59px;
+  border-radius: 29.04px;
+  justify-content: space-between;
+  angle: -0 deg;
+  padding: 29.04px;
+  background-color: #D76239;
+}
+
+.footer a {
+  color: white;
+  text-decoration: underline;
+}
 
