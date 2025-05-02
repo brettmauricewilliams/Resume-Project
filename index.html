@@ -1,177 +1,231 @@
+<!-- Declares the document type and version of HTML -->
 <!DOCTYPE html>
+<!-- Root element of the HTML document -->
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Sets character encoding to UTF-8 -->
+  <meta charset="UTF-8" />
+  <!-- Makes site responsive on all devices -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <!-- Sets the page title shown on browser tab -->
   <title>Brett Williams Resume</title>
+  <!-- Imports Poppins font from Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <!-- Links external CSS file -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- Ensures consistent box sizing across all elements -->
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+  </style>
+  <!-- Loads Font Awesome for using icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
-  
-  <!--- Body -->
+
 <body>
+  <!-- Main wrapper for all content -->
   <div class="container">
-    <!--Header and profile pic -->
+
+    <!-- Header section with profile picture and bio -->
     <div class="header">
-  <img src="C:\Users\brettw\Desktop\Brett_IMG_0044.jpg" alt="Brett's Profile Picture" class="profile-pic">
-  <div class="header-text">
-    
-    <!--- My Bio -->
-    <h1>Brett Williams</h1>
-    <p>A motivated and adaptable professional seeking to leverage my
+      <!-- Profile image -->
+      <img src="images/Brett_IMG_0044.jpg" alt="Brett's Profile Picture" class="profile-pic" />
+      <!-- Text content in header -->
+      <div class="header-text">
+        <!-- Name heading -->
+        <h1>Brett Williams</h1>
+        <!-- Brief personal statement -->
+        <p>A motivated and adaptable professional seeking to leverage my
 technical expertise, leadership skills, and business management
 knowledge in a challenging role within a dynamic organization. I am
 committed to contributing to operational excellence, driving team
 performance, and supporting strategic business goals, with a long-
-term vision of growing into leadership and management roles.
+term vision of growing into leadership and management roles.</p>
+      </div>
+    </div>
 
-A disciplined, confident, and hardworking professional with a proven
-ability to adapt quickly and thrive in dynamic environments. I am
-motivated by challenges, eager to learn, and passionate about
-delivering excellent service and technical support. Committed to
-continuous growth and working collaboratively across diverse teams.</p>
-  </div>
-</div>
-<div class="side-by-side">
-<!--- Proficiency Section -->
-<div class="card proficiency">
-  <h2>Proficiency</h2>
-  <div class="skills-bar">
-    <p>JavaScript</p>
-    <div class="bar"><div class="fill js"></div></div>
-    <p>React</p>
-    <div class="bar"><div class="fill react"></div></div>
-    <p>Node.js</p>
-    <div class="bar"><div class="fill node"></div></div>
-    <p>HTML + CSS</p>
-    <div class="bar"><div class="fill htmlcss"></div></div>
-  </div>
-</div>
+    <!-- Section displaying Proficiency and Skills side-by-side -->
+    <div class="side-by-side">
+      <!-- Proficiency card with skill bars -->
+      <div class="card proficiency">
+        <h2>Proficiency</h2>
+        <div class="skills-bar">
+          <!-- Each skill has a label and a styled progress bar -->
+          <p>JavaScript</p>
+          <div class="bar"><div class="fill js"></div></div>
+          <p>React</p>
+          <div class="bar"><div class="fill react"></div></div>
+          <p>Node.js</p>
+          <div class="bar"><div class="fill node"></div></div>
+          <p>HTML + CSS</p>
+          <div class="bar"><div class="fill htmlcss"></div></div>
+        </div>
+      </div>
 
- <!-- Skills Section -->
-<div class="card skills">
-  <h2>Skills</h2>
-  <div class="skill-tags">
-    <span>Software Support</span>
-    <span>Troubleshooting</span>
-    <span>Reporting</span>
-    <span>Problem Solving</span>
-    <span>Data Analysis</span>
-    <span>Data Entry</span>
-    <span>Team Collaboration</span>
-    <span>Technical escalation handling</span>
-    <span>Technical diagnosis</span>
-  </div>
-</div>
+      <!-- Skills card with tags -->
+      <div class="card skills">
+        <h2>Skills</h2>
+        <!-- Tags displayed as labeled spans -->
+        <div class="skill-tags">
+          <span>Software Support</span>
+          <span>Troubleshooting</span>
+          <span>Reporting</span>
+          <span>Problem Solving</span>
+          <span>Data Analysis</span>
+          <span>Data Entry</span>
+          <span>Team Collaboration</span>
+          <span>Technical escalation handling</span>
+          <span>Technical diagnosis</span>
+        </div>
+      </div>
     </div>
-<!-- Projects Section -->
-<div class="card projects">
-  <h2>Projects</h2>
-  <!-- Start of list -->
-  <div class="project-list">
-    <!-- First Project-->
-    <div class="project">
-      <h3>2025 - CS Pets Instagram profile</h3>
-      <p><strong>Brief:</strong> Developed a profile page similar to instagram by:Applying CSS styling to enhance the structure and design of the page.
-Using flexbox and grid layouts to create an Instagram-like profile structure.
-Ensuring responsiveness, making sure the page looks great on mobile and desktop.
-Implementing interactive elements, including hover effects and a dynamic loading animation.</p>
-      <p><strong>Technologies:</strong>  HTML, CSS</p>
-      <p><strong>Responsibilities:</strong> Designed and implemented the website layout, ensured responsiveness and accessibility.</p>
+
+    <!-- Projects section listing past work -->
+    <!-- Projects -->
+    <div class="card projects">
+      <h2>Projects</h2>
+      <div class="project-list">
+        <div class="project">
+          <h3>2025 - CS Pets Instagram profile</h3>
+          <p><strong>Brief:</strong> Developed a profile page similar to Instagram by applying CSS styling, using flexbox and grid, ensuring responsiveness, and adding interactive hover effects.</p>
+          <p><strong>Technologies:</strong> HTML, CSS</p>
+          <p><strong>Responsibilities:</strong> Designed and implemented layout, ensured responsiveness and accessibility.</p>
+        </div>
+
+        <div class="project">
+          <h3>2025 - Cafe Menu</h3>
+          <p><strong>Brief:</strong> Built a cafe menu page with responsive web design.</p>
+          <p><strong>Technologies:</strong> HTML, CSS</p>
+          <p><strong>Responsibilities:</strong> Created an easy-to-use responsive cafe menu using styling and layout techniques.</p>
+        </div>
+
+        <div class="project">
+          <h3>2025 - Book-Connect</h3>
+          <p><strong>Brief:</strong> Structured web page using HTML5.</p>
+          <p><strong>Technologies:</strong> HTML, CSS</p>
+          <p><strong>Responsibilities:</strong> Styled a responsive book catalog using Flexbox and Grid.</p>
+        </div>
+
+        <div class="project">
+          <h3>2025 - Responsive Footer Design with Tailwind CSS</h3>
+          <p><strong>Brief:</strong> Built a responsive website footer using Tailwind CSS best practices.</p>
+          <p><strong>Technologies:</strong> TailwindCSS, CSS</p>
+          <p><strong>Responsibilities:</strong> Implemented grid layout, structured footer sections, ensured accessibility and responsiveness.</p>
+        </div>
+      </div>
     </div>
-    <!-- Second Project-->
-    <div class="project">
-      <h3>2025 - Cafe Menu</h3>
-      <p><strong>Brief:</strong> Built a cafe menu page with a responsive web design.</p>
-      <p><strong>Technologies:</strong> HTML, CSS</p>
-      <p><strong>Responsibilities:</strong> Create an easy to use cafe menu using syling to ensure responsive design.</p>
+
+    <!-- Education and Tools side by side container -->
+    <div class="cards-container">
+      <!-- Education card showing academic background -->
+      <div class="card education">
+        <h2>Education</h2>
+        <div class="education1">
+          <p><strong>Feb 2025 – Current</strong><br>CodeSpace Academy – Full Stack Web Development</p>
+          <!-- List of subjects -->
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </div>
+        <div class="education2">
+          <p><strong>Jan 2014 – Dec 2015</strong><br>Northlink College – N6 Certificate</p>
+          <li>Business Management</li>
+          <li>Sales Management</li>
+          <li>Human Resources</li>
+          <li>Entrepreneurship, Marketing</li>
+          <li>Public Relations</li>
+        </div>
+        <div class="education3">
+          <p><strong>Dec 2013</strong><br>Bridgetown Highschool – NSC</p>
+          <li>First and second home languages</li>
+          <li>Mathematics</li>
+          <li>Physical Sciences</li>
+        </div>
+      </div>
+
+      <!-- Tools section showing technologies and icons used -->
+      <div class="card tools">
+        <h2>Tools</h2>
+        <!-- Removes default list styles, aligns icons vertically -->
+        <ul style="list-style: none; padding: 0; display: flex; flex-direction: column; gap: 12px;">
+          <!-- Languages section -->
+          <div class="custom-background1">
+            <h3>languages</h3>
+            <ul class="languages">
+              <!-- HTML5 icon -->
+              <i class="fab fa-html5"></i>
+            </ul>
+          </div>
+          <!-- Design section -->
+          <div class="custom-background2">
+            <h3>design</h3>
+            <ul class="design">
+              <!-- Google and Windows icons -->
+              <i class="fab fa-google"></i>
+              <i class="fab fa-windows"></i>
+            </ul>
+          </div>
+          <!-- Tools section -->
+          <div class="custom-background3">
+            <h3>tools</h3>
+            <ul class="tools">
+              <!-- CodePen, generic code icon, GitHub -->
+              <i class="fab fa-codepen"></i>
+              <i class="fas fa-code"></i>
+              <i class="fab fa-github"></i>
+            </ul>
+          </div>
+        </ul>
+      </div>
     </div>
-    <!-- Third Project-->
-    <div class="project">
-      <h3>2025 - Book-Connect</h3>
-      <p><strong>Brief:</strong> Structured web page with HTML5</p>
-      <p><strong>Technologies:</strong> HTML, CSS</p>
-      <p><strong>Responsibilities:</strong> Styling with CSS3 (including Flexbox & Grid)
-Creating a visually appealing book catalog
-Implementing responsive design for various screen sizes</p>
-    </div>
-    <!--Last Project -->
-    <div class="project">
-      <h3>2025 -Responsive Footer Design with Tailwind CSS</h3>
-      <p><strong>Brief:</strong>A well-structured, fully responsive website footer built with Tailwind CSS, following best practices for layout, styling, and accessibility.</p>
-      <p><strong>Technologies:</strong>  TailwindCSS, CSS</p>
-      <p><strong>Responsibilities:</strong> Using Tailwind CSS classes to style and structure the footer.
-Implemented a responsive grid layout that adapts to different screen sizes.
-Created sections for quick links, a newsletter subscription, and social media links.
-All while ensuring accessibility and usability with proper styling and spacing.</p>
-    </div>
-    <!-- End of Project List -->
-  </div>
-</div>    
-<div class="cards-container">
-  <!--Eduction Section-->
-<div class="card education">
-  <h2>Education</h2>
-  <!-- First Education-->
-  <div class="education1">
-  <ul class="education">
-    <strong>Feb 2025 – Current</strong><br>CodeSpace Academy – Full stack Web development, Part time
-    </ul>
-    </div>
-    <!-- Second Education-->
-    <div class="education2">
-      <ul class="education">
-    <strong>Jan 2014 – Dec 2015</strong><br>Northlink College – N6 certificate,Business management, Full-time
-      </ul>
-    </div>
-    <!-- Third Education-->
-    <div class="education3">
-      <ul class="education">
-    <strong> Dec 2013</strong><br>Bridgetown Highschool – NSC | NQF Level 4
-      </ul>
-    </div>
-  </ul>
-</div>
- <!-- Tools Section-->
-<div class="card tools">
-  <h2>Tools</h2>
-  <ul style="list-style: none; padding: 0; display: flex; flex-direction: column; gap: 12px;">
-    <li>🖊️ VS Code</li>
-    <li>🎨 Figma</li>
-    <li>🐙 GitHub</li>
-    <li>📬 Postman</li>
-    <li>🌍 Netlify</li>
-    <li>📦 npm</li>
-    <li>⚡ Vite</li>
-    <li>🔥 Firebase</li>
-  </ul>
-</div>
-    </div>
- <!-- Experience Section -->
+
+       <!-- Experience Section -->
 <div class="card experience">
   <h2>Experience</h2>
   <!-- First Experience -->
   <div class="experience1">
   <ul class="experience">
     <strong>Aug 2019 – Current</strong><br>Helpdesk Technician – Redpanda Software | Full-time <span class="most-recent-tag">Most Recent</span>
+    <li>Provide first-line technical support via phone, email, in-person, and
+      remote sessions.</li>
+<li>Assist in setup, configuration, maintenance, and troubleshooting of
+  computer systems, hardware, and software.</li>
+    <li>Conduct end-user training and create feedback-driven improvements to training materials.</li>
+<li>Generate reports and analyze customer issues to identify recurring
+  problems and propose solutions</li>
   </ul>
   </div>
   <!-- Second Experience-->
   <div class="experience2">
   <ul class="experience">
     <strong>Jan 2015 – Jan 2018</strong><br>Operations Supervisor – Tsebo Cleaning (Old Mutual Project) | Full time
+    
+    <li>Led recruitment, interviewing, and onboarding processes.</li>
+    <li>Maintained and updated staff records, including salary
+administration.</li>
+    <li>Supervised staff operations at the waste processing plant</li>
+    <li>Supported HR and marketing initiatives.</li>
   </ul>
   </div>
   <!-- Third Exprience-->
   <div class="experience3">
   <ul class="experience">
     <strong>Jan 2013 – Dec 2014</strong><br>Event Barman – Techleech | Part-time
+    <li>Provided bartending services at corporate functions and private
+      events.</li>
   </ul>
   </div>
 </div>
-<footer class="footer">
-  <p>Let’s chat! I’m ready to work on new and exciting projects.</p>
-  <p>brettmaurice95@gmail.com | 071 371 5934 | <a href="https://www.linkedin.com/in/brett-williams-5738a3195/">LinkedIn</a> | <a href="https://github.com/brettmauricewilliams">GitHub</a></p>
-</footer>
+
+    <!-- Footer section with contact info and links -->
+    <footer class="footer">
+      <p>Let’s chat! I’m ready to work on new and exciting projects.</p>
+      <p>📧 brettmaurice95@gmail.com | 📱 071 371 5934 |
+        <!-- Clickable links to LinkedIn and GitHub -->
+        <a href="https://www.linkedin.com/in/brett-williams-5738a3195/">LinkedIn</a> |
+        <a href="https://github.com/brettmauricewilliams">GitHub</a>
+      </p>
+    </footer>
   </div>
 </body>
 </html>
