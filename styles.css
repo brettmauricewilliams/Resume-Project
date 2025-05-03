@@ -8,17 +8,18 @@
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  background-color: #000;
   color: #000;
+  background-image: url('https://raw.githubusercontent.com/brettmauricewilliams/Resume-Project/main/images/FigmaBackground.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed; /* optional: keeps the image fixed during scroll */
 }
+
 
 .container {
   margin: 0 auto;
   padding: 40px 20px;
-  background-image: url('https://github.com/brettmauricewilliams/Resume-Project/raw/main/images/FigmaBackground.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
   min-height: 100vh;
 }
 
