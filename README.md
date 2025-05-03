@@ -20,7 +20,7 @@ The project displays the following sections:
 
 ## 🌐 Live Demo
 
-> _video url_
+> _[video ur](https://www.loom.com/share/8ada7eec70ec4a549d4899b709ecf905?sid=e5839abc-e688-4bc3-b83d-8b0f4280fc40)l_
 
 ---
 
