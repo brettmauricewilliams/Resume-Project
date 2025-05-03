@@ -13,10 +13,13 @@ body {
 }
 
 .container {
-  max-width: 1320px;
   margin: 0 auto;
   padding: 40px 20px;
   background-image: url('https://github.com/brettmauricewilliams/Resume-Project/blob/main/images/FigmaBackground.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
 }
 
 /* HEADER */
