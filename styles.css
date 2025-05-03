@@ -15,7 +15,7 @@ body {
 .container {
   margin: 0 auto;
   padding: 40px 20px;
-  background-image: url('https://github.com/brettmauricewilliams/Resume-Project/blob/main/images/FigmaBackground.png');
+  background-image: url('https://github.com/brettmauricewilliams/Resume-Project/raw/main/images/FigmaBackground.png');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
